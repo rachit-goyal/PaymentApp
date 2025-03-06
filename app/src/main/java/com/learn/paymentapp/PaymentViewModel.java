@@ -26,6 +26,7 @@ public class PaymentViewModel extends ViewModel {
         currentPayments.add(payment);
         payments.setValue(currentPayments);
 
+
         totalAmount.setValue(totalAmount.getValue() + payment.getAmount());
     }
 
