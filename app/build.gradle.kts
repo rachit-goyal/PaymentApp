@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.code.gson:gson:2.8.9")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
 
     implementation(libs.appcompat)
     implementation(libs.material)

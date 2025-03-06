@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Payment type dropdown (Spinner) -->
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_amount"
+        android:inputType="numberDecimal" />
+    <Spinner
+        android:id="@+id/spinnerPaymentType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/payment_types" />
+    <EditText
+        android:id="@+id/editTextProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_provider"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextTransactionRef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_transaction_reference"
+        android:visibility="gone" />
+
+
+</LinearLayout>

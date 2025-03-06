@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">PaymentApp</string>
+    <string name="save">Save</string>
+    <string name="add_payment">Add Payment</string>
+    <string name="total_amount_rs_0">Total Amount: Rs 0</string>
+    <string name="enter_provider">Enter Provider</string>
+    <string name="enter_transaction_reference">Enter Transaction Reference</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string-array name="payment_types">
+            <item>Cash</item>
+            <item>Bank Transfer</item>
+            <item>Credit Card</item>
+        </string-array>
 </resources>
